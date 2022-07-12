@@ -51,6 +51,6 @@ interface NotEmpty<T> {
 let notEmpty1: NotEmpty<string>;
 let notEmpty2: NotEmpty<number>;
 
-notEmpty1 = notEmpty2;
-notEmpty2 = notEmpty1;
+// notEmpty1 = notEmpty2;
+// notEmpty2 = notEmpty1;
 
